@@ -51,7 +51,7 @@ def save_ret_to_excel(out_file, map_obj):
 
 
 if __name__ == '__main__':
-    conn = MongoClient('mongodb.sysgroup.open.com.cn', 27017)
+    conn = MongoClient('10.100.136.39', 27017)
     #conn = MongoClient('10.100.136.39', 27017)
     db = conn.logdb
     collection = db.apptoolservocelog
